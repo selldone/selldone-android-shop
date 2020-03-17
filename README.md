@@ -2,6 +2,9 @@
 
 Build your online store Android application
 
+![Selldone Android Store](/readme/github-android-store-small.png)
+
+
 ---
 # Selldone App Builder
 
@@ -13,7 +16,7 @@ You only need to set a name, title, icon, and design splash screen and then clic
 
 ![Application Builder](https://selldone.com/app/img/app-builder-build-sign.5bc9a1ac.svg)
 
-Visit the [Selldone App Builder Platform](https://selldone.com/app-builder) ONE CLICK TO BUILD YOUR ANDROID APP AND PUBLISH IT.
+Visit the [Selldone App Builder Platform](https://selldone.com/app-builder) **ONE CLICK TO BUILD YOUR ANDROID APP AND PUBLISH IT**.
 
 
 
