@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ✎ Script ➔ Auto fill -->
+<resources>
+    <string name="app_name" translatable="false">Application Name</string>
+    <string name="shop_title" translatable="false">Application Title</string>
+
+    <!-- Shop user name -->
+    <string name="shop_name">pajuhaan</string>
+
+
+    <!-- splash -->
+    <string name="splash_title">Splash title</string>
+    <string name="splash_more_info">Splash description…</string>
+
+    <color name="splash_color">#00ACC1</color>
+
+</resources>

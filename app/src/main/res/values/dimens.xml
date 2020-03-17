@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="size_shine_button">200dp</dimen>
+
+
+    <dimen name="text_size_toolbar_title">25sp</dimen>
+    <dimen name="text_size_profile_toolbar_title">20sp</dimen>
+    <dimen name="corner_radius_oval">16dp</dimen>
+
+    <dimen name="height_toolbar">70dp</dimen>
+    <dimen name="height_profile_image">250dp</dimen>
+
+    <!-- sum of *height_toolbar* and *height_profile_image* -->
+    <dimen name="height_profile_picture_with_toolbar">320dp</dimen>
+
+    <dimen name="size_button_message">60dp</dimen>
+
+    <!-- *height_profile_picture_with_toolbar* - half of *size_button_message* -->
+    <dimen name="margin_top_button_message">290dp</dimen>
+
+
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">8sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">10sp</dimen>
+
+
+    <dimen name="main_card_corner_radius">12dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="list_item_spacing">16dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
+
+
+    <dimen name="samincard_account_number_text">22sp</dimen>
+    <dimen name="samincard_currency_icon_size">24dp</dimen>
+    <dimen name="samincard_account_name_text">12sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="samincard_small_card_number_font_size">14sp</dimen>
+
+
+</resources>

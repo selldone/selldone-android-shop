@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">11sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">13sp</dimen>
+
+    <dimen name="main_card_corner_radius">16dp</dimen>
+
+
+    <dimen name="samincard_account_number_text">30sp</dimen>
+    <dimen name="samincard_currency_icon_size">32dp</dimen>
+    <dimen name="samincard_account_name_text">14sp</dimen>
+
+
+    <dimen name="samincard_small_card_number_font_size">18sp</dimen>
+
+
+</resources>

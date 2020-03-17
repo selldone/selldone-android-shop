@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/ic_arrow_left"
+        android:title="My orders" />
+    <item
+        android:id="@+id/favorites"
+        android:icon="@drawable/ic_arrow_left"
+        android:title="Favorites" />
+    <item
+        android:id="@+id/gift_cards"
+        android:icon="@drawable/ic_arrow_left"
+        android:title="Gift cards" />
+    <item
+        android:id="@+id/return_requests"
+        android:icon="@drawable/ic_arrow_left"
+        android:title="Return requests" />
+    <item
+        android:id="@+id/basket"
+        android:icon="@drawable/ic_arrow_left"
+        android:title="Basket" />
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_arrow_left"
+        android:title="Logout" />
+
+</menu>

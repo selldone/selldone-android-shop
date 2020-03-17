@@ -1,0 +1,32 @@
+<resources>
+
+
+    <string name="TopToolbar_ShopAdminFragment">Store Management Dashboard</string>
+    <string name="TopToolbar_ShopInfoFragment">Contact Us</string>
+    <string name="TopToolbar_MainPage">Main</string>
+    <string name="TopToolbar_QRScanState">QR Scan</string>
+    <string name="TopToolbar_QRCodeFragment">QR Code</string>
+    <string name="TopToolbar_HomeFragment">Home</string>
+
+    <string name="Notification_Account_Title_def">Lorem dolor color dolor color</string>
+    <string name="Notification_Account_Message_def">Lorem dolor color dolor lorem dolor color dolor lorem dolor color dolor lorem dolor color dolor color</string>
+
+    <string name="Notification_Gift_Title_def">Lorem dolor color dolor color</string>
+    <string name="Notification_Gift_Message_def">Lorem dolor color dolor lorem dolor color dolor lorem dolor color dolor lorem dolor color dolor color</string>
+
+
+    <string name="Notification_Gift_Message">Lorem dolor color dolor color %s</string>
+    <string name="Notification_Gift_Sender">Lorem dolor color dolor color %s </string>
+
+    <string name="Notification_Transaction_Title_charge">Lorem dolor color dolor color </string>
+    <string name="Notification_Transaction_Title_Withdraw">Lorem dolor color dolor color </string>
+
+    <string name="Notification_Transaction_Receipt_Info">Lorem dolor color dolor color %s</string>
+
+
+
+    <string name="Notification_Transaction_Charge">Lorem dolor color dolor color </string>
+    <string name="Notification_Transaction_Withdraw">Lorem dolor color dolor color </string>
+
+
+</resources>

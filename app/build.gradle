@@ -1,0 +1,108 @@
+apply plugin: 'com.android.application'
+
+// ------------------ Load keystore (✎ Remove in template) ------------------
+def keystorePropertiesFile = rootProject.file("keystore.properties");
+def keystoreProperties = new Properties()
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+//----------------------------------------------------------------------------
+
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "selldone.com.first_app"                 // ✎ Script ➔ Auto fill
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 13                                          // ✎ Script ➔ Auto fill
+        versionName "1.13"                                      // ✎ Script ➔ Auto fill
+
+        // Manifest:
+        manifestPlaceholders = [shopName:"pajuhaan"]              // ✎ Script ➔ Auto fill
+
+
+        vectorDrawables.useSupportLibrary = true
+    }
+    lintOptions {
+        disable 'MissingTranslation'
+    }
+    /**
+     * Build: run > gradlew.bat assembleRelease
+     */
+    signingConfigs {
+        release {
+            storeFile file(keystoreProperties['storeFile'])          // ✎ Script ➔ Auto fill
+            storePassword keystoreProperties['storePassword']      // ✎ Script ➔ Auto fill
+            keyAlias keystoreProperties['keyAlias']                                         // ✎ Script ➔ Auto fill
+            keyPassword keystoreProperties['keyPassword']            // ✎ Script ➔ Auto fill
+        }
+    }
+
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+
+        /* release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }*/
+    }
+      flavorDimensions "type"
+     productFlavors {
+
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    bundle {
+        language {
+            enableSplit = false
+        }
+        density {
+            enableSplit = true
+        }
+        abi {
+            enableSplit = true
+        }
+    }
+    buildToolsVersion '28.0.3'
+}
+
+configurations {
+    compile.exclude group: 'androidx.browser', module: 'browser'
+}
+
+
+dependencies {
+    implementation 'com.github.GoogleChrome.custom-tabs-client:customtabs:91b4a1270b'
+
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta4'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+
+    implementation 'com.google.firebase:firebase-core:17.2.3'
+    implementation 'com.google.firebase:firebase-messaging:20.1.2'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.9'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+
+    implementation 'com.redmadrobot:inputmask:3.4.4'
+    implementation 'me.dm7.barcodescanner:zbar:1.9.8'
+    implementation 'com.google.zxing:core:3.3.2'
+    implementation 'com.journeyapps:zxing-android-embedded:3.6.0@aar'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.airbnb.android:lottie:3.0.0'
+}
+

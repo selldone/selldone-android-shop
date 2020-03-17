@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".backPage.BackFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/button_payment_qr_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="QR Code"
+        android:textColor="#fff"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/button_payment_qr"
+        app:layout_constraintStart_toStartOf="@+id/button_payment_qr"
+        app:layout_constraintTop_toBottomOf="@+id/button_payment_qr" />
+
+    <TextView
+        android:id="@+id/button_payment_form_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="About Us"
+        android:textColor="#fff"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/button_payment_form"
+        app:layout_constraintStart_toStartOf="@+id/button_payment_form"
+        app:layout_constraintTop_toBottomOf="@+id/button_payment_form" />
+
+    <TextView
+        android:id="@+id/button_receipt_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Store Management"
+        android:textColor="#fff"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/button_new_recipt"
+        app:layout_constraintStart_toStartOf="@+id/button_new_recipt"
+        app:layout_constraintTop_toBottomOf="@+id/button_new_recipt" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/button_payment_form"
+
+        android:layout_width="84dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/circle_button"
+        android:padding="24dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintDimensionRatio="h,1:1"
+        app:layout_constraintEnd_toStartOf="@+id/button_new_recipt"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_store" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/button_new_recipt"
+
+        android:layout_width="84dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/circle_button"
+        android:padding="24dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintDimensionRatio="h,1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_payment_form"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_account" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/button_payment_qr"
+
+        android:layout_width="84dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/circle_button"
+        android:padding="24dp"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="h,1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button_payment_form_label"
+        app:srcCompat="@drawable/ic_qrcode_scan" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="48dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
