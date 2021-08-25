@@ -1,6 +1,6 @@
 # Selldone Store Application — Android
 
-Build your online store Android application
+Build an Android application for your online store.
 
 ![Selldone Android Store](/readme/github-android-store-small.png)
 
