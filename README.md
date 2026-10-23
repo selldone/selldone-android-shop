@@ -140,7 +140,6 @@ Values marked `✎ Script ➔ Auto fill` in the source are filled by the App Bui
 
 ### Application Builder
 
-![Application Builder](https://selldone.com/app/img/app-builder-build-sign.5bc9a1ac.svg)
 
 ## Documentation
 
