@@ -140,6 +140,7 @@ Values marked `✎ Script ➔ Auto fill` in the source are filled by the App Bui
 
 ### Application Builder
 
+Set a name, title, icon and splash screen in the [Selldone App Builder](https://selldone.com/app-builder), click **Build app**, and Selldone builds and signs the app with your keys, ready for release in app stores.
 
 ## Documentation
 
